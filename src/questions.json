@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What is my name",
+    "alternatives": [
+      {
+        "alternative": "Sandra",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Emma",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Lisa",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Amanda",
+        "isCorrect": false
+      }
+    ]
+  }
+]
