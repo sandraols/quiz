@@ -1,10 +1,12 @@
 import './App.css';
+import { React } from 'react';
+import { IntroView } from './Views/IntroView/IntroView';
 
 function App() {
-  return (
+
+return (
     <div className="App">
-      <h1>The best Quiz</h1>
-      {/* quiz parent component goes here  */}
+      <IntroView />
     </div> 
   );
 }
