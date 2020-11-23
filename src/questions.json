@@ -1,23 +1,464 @@
 [
   {
-    "question": "What is my name",
+    "question": "In The Matrix, does Neo take the blue pill or the red pill?",
     "alternatives": [
       {
-        "alternative": "Sandra",
+        "alternative": "Red",
         "isCorrect": true
       },
       {
-        "alternative": "Emma",
+        "alternative": "Blue",
         "isCorrect": false
       },
       {
-        "alternative": "Lisa",
+        "alternative": "Neither",
         "isCorrect": false
       },
       {
-        "alternative": "Amanda",
+        "alternative": "Both",
         "isCorrect": false
       }
-    ]
+    ],
+    "gifLink": "https://gph.is/1Pb2JhG"
+  },
+  {
+    "question": "What’s the name of the skyscraper in Die Hard?",
+    "alternatives": [
+      {
+        "alternative": "Azure Tower",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Starlight Pillar",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Nakatomi Plaza",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Skyreach Plaza",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "http://gph.is/2hZL7in"
+  },
+  {
+    "question": "In what 1976 thriller does Robert De Niro famously say “You talkin’ to me?”",
+    "alternatives": [
+      {
+        "alternative": "The Goodfather: Part 2",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Mean Streets",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Cape Fear",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Taxi Driver",
+        "isCorrect": true
+      }
+    ],
+    "gifLink": "http://gph.is/XIxZhj"
+  },
+  {
+    "question": "Who is the only actor to receive an Oscar nomination for acting in a Lord of the Rings movie?",
+    "alternatives": [
+      {
+        "alternative": "Ian McKellen",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Elijah Wood",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Orlando Bloom",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Viggo Mortensen",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "https://gph.is/1dFGKAO"
+  },
+  {
+    "question": "What 1994 crime film revitalized John Travolta’s career?",
+    "alternatives": [
+      {
+        "alternative": "Fight Club",
+        "isCorrect": false
+      },
+      {
+        "alternative": "The Matrix",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Get Shorty",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Pulp Fiction",
+        "isCorrect": true
+      }
+    ],
+    "gifLink": "http://gph.is/1TpRh46"
+  },
+  {
+    "question": "What is the real name of Uma Thurman’s “The Bride” character from Kill Bill?",
+    "alternatives": [
+      {
+        "alternative": "Elle Driver",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Vernita Green",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Black Mamba",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Beatrix Kiddo",
+        "isCorrect": true
+      }
+    ],
+    "gifLink": "https://gph.is/1dLD3t6"
+  },
+  {
+    "question": "How many suns does Luke’s home planet of Tatooine have in Star Wars?",
+    "alternatives": [
+      {
+        "alternative": "One",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Two",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Three",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Four",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "http://gph.is/28JMr5G"
+  },
+  {
+    "question": "Who is the first and only woman of color to win the Oscar for Best Actress?",
+    "alternatives": [
+      {
+        "alternative": "Halle Berry",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Keke Palmer",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Oprah Winfrey",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Joy Bryant",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "http://gph.is/19DEl7T"
+  },
+  {
+    "question": "What’s the fictional brand of cigarettes in Quentin Tarantino’s movies?",
+    "alternatives": [
+      {
+        "alternative": "Unlucky Strike cigarettes",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Red Apple cigarettes",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Big Apple cigarettes",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Holy Spirit cigarettes",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "https://gph.is/12uUB8L"
+  },
+  {
+    "question": "How many Oscars has Meryl Streep won?",
+    "alternatives": [
+      {
+        "alternative": "Seven",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Six",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Two",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Three",
+        "isCorrect": true
+      }
+    ],
+    "gifLink": "http://gph.is/2oOTwGP"
+  },
+  {
+    "question": "Who directed Titanic, Avatar and The Terminator?",
+    "alternatives": [
+      {
+        "alternative": "Tim Burton",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Peter Jackson",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Steven Spielberg",
+        "isCorrect": false
+      },
+      {
+        "alternative": "James Cameron",
+        "isCorrect": true
+      }
+    ],
+    "gifLink": "https://gph.is/1epGdp4"
+  },
+  {
+    "question": "How many films have Kate Winslet and Leonardo DiCaprio starred in together?",
+    "alternatives": [
+      {
+        "alternative": "Two",
+        "isCorrect": false
+      },
+      {
+        "alternative": "One",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Four",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Three",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "http://gph.is/2c00n8u"
+  },
+  {
+    "question": "What is the first word spoken in Star Wars: The Empire Strikes Back?",
+    "alternatives": [
+      {
+        "alternative": "The",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Void",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Echo",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Nothing",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "http://gph.is/1QLlkGE"
+  },  
+  {
+    "question": "What is the name of the spell used by Ron and Hermoine in Harry Potter and the Philosopher’s Stone to make their feathers fly?",
+    "alternatives": [
+      {
+        "alternative": "Expelliarmus",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Alohomora",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Wingardium Leviosa",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Accio",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "http://gph.is/1Dncfft"
+  },
+  {
+    "question": "What happens to Chihiro’s parents in the 2001 Japanese film Spirited Away?",
+    "alternatives": [
+      {
+        "alternative": "They are transformed into pigs",
+        "isCorrect": true
+      },
+      {
+        "alternative": "They fall into a hole and disappear",
+        "isCorrect": false
+      },
+      {
+        "alternative": "They are transformed into dogs",
+        "isCorrect": false
+      },
+      {
+        "alternative": "They get abducted",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "http://gph.is/Z0ce8Q"
+  },
+  {
+    "question": "How many Academy Awards has Leonardo DiCaprio won?",
+    "alternatives": [
+      {
+        "alternative": "One",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Three",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Four",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Six",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "http://gph.is/2m65e0I"
+  },
+  {
+    "question": "‘Frankly my dear, I don’t give a damn’ is an iconic line from which classic film?",
+    "alternatives": [
+      {
+        "alternative": "Titanic",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Gone with the Wind",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Breakfast at Tiffany's",
+        "isCorrect": false
+      },
+      {
+        "alternative": "The Notebook",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "https://gph.is/XKPQV2"
+  },
+  {
+    "question": "Who replaced Richard Harris as Dumbledore in the Harry Potter films?",
+    "alternatives": [
+      {
+        "alternative": "Richard Harris",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Alan Rickman",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Ian McKellen",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Michael Gambon",
+        "isCorrect": true
+      }
+    ],
+    "gifLink": "https://gph.is/g/Z8j8d2n"
+  },
+  {
+    "question": "What does Tom Hanks compare life to in Forest Gump?",
+    "alternatives": [
+      {
+        "alternative": "A pair of shoes",
+        "isCorrect": false
+      },
+      {
+        "alternative": "A pair of pants",
+        "isCorrect": false
+      },
+      {
+        "alternative": "A rose",
+        "isCorrect": false
+      },
+      {
+        "alternative": "A box of chocolates",
+        "isCorrect": true
+      }
+    ],
+    "gifLink": "https://gph.is/g/E1mRMrR"
+  },
+  {
+    "question": "Which movie features an iconic dance scene between Uma Thurman and John Travolta?",
+    "alternatives": [
+      {
+        "alternative": "Kill Bill",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Grease",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Pulp Fiction",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Dirty Dancing",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "https://gph.is/154MYSg"
+  },
+  {
+    "question": "In the Coen Brothers film The Big Lebowski – what cocktail is the favourite of The Dude?",
+    "alternatives": [
+      {
+        "alternative": "A White Russian",
+        "isCorrect": true
+      },
+      {
+        "alternative": "Bloody Mary",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Long Island iced tea",
+        "isCorrect": false
+      },
+      {
+        "alternative": "Negroni",
+        "isCorrect": false
+      }
+    ],
+    "gifLink": "https://gph.is/g/ZyPDL6O"
   }
 ]
