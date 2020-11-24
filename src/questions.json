@@ -19,7 +19,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "https://gph.is/1Pb2JhG"
+    "gif": {
+      "gifLink": "https://gph.is/1Pb2JhG",
+      "gifLinkEmbedded": "https://giphy.com/embed/1CNsm9ZkHF0m4",
+      "title": "Blue pill or red pill gif"
+    }
   },
   {
     "question": "What’s the name of the skyscraper in Die Hard?",
@@ -41,7 +45,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "http://gph.is/2hZL7in"
+    "gif": {
+      "gifLink": "http://gph.is/2hZL7in",
+      "gifLinkEmbedded": "https://giphy.com/embed/AphxZxXiVklYQ",
+      "title": "Die Hard gif"
+    }
   },
   {
     "question": "In what 1976 thriller does Robert De Niro famously say “You talkin’ to me?”",
@@ -63,7 +71,11 @@
         "isCorrect": true
       }
     ],
-    "gifLink": "http://gph.is/XIxZhj"
+    "gif": {
+      "gifLink": "http://gph.is/XIxZhj",
+      "gifLinkEmbedded": "https://giphy.com/embed/CYUDHVmioGETu",
+      "title": "You talkin to me gif"
+    }
   },
   {
     "question": "Who is the only actor to receive an Oscar nomination for acting in a Lord of the Rings movie?",
@@ -85,7 +97,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "https://gph.is/1dFGKAO"
+    "gif": {
+      "gifLink": "https://gph.is/1dFGKAO",
+      "gifLinkEmbedded": "https://giphy.com/embed/smW5FBep69d3q",
+      "title": "One does not simply walk into mordor gif"
+    }
   },
   {
     "question": "What 1994 crime film revitalized John Travolta’s career?",
@@ -107,7 +123,11 @@
         "isCorrect": true
       }
     ],
-    "gifLink": "http://gph.is/1TpRh46"
+    "gif": {
+      "gifLink": "http://gph.is/1TpRh46",
+      "gifLinkEmbedded": "https://giphy.com/embed/tvGOBZKNEX0ac",
+      "title": "John Travolta confused gif"
+    }
   },
   {
     "question": "What is the real name of Uma Thurman’s “The Bride” character from Kill Bill?",
@@ -129,7 +149,11 @@
         "isCorrect": true
       }
     ],
-    "gifLink": "https://gph.is/1dLD3t6"
+    "gif": {
+      "gifLink": "https://gph.is/1dLD3t6",
+      "gifLinkEmbedded": "https://giphy.com/embed/ATGtSpJKlh6Sc",
+      "title": "Uma Thurman in Kill Bill gif"
+    }
   },
   {
     "question": "How many suns does Luke’s home planet of Tatooine have in Star Wars?",
@@ -151,7 +175,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "http://gph.is/28JMr5G"
+    "gif": {
+      "gifLink": "http://gph.is/28JMr5G",
+      "gifLinkEmbedded": "https://giphy.com/embed/wNA3YfMD2Fe9y",
+      "title": "Star Wars poster moving gif"
+    }
   },
   {
     "question": "Who is the first and only woman of color to win the Oscar for Best Actress?",
@@ -173,7 +201,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "http://gph.is/19DEl7T"
+    "gif": {
+      "gifLink": "http://gph.is/19DEl7T",
+      "gifLinkEmbedded": "https://giphy.com/embed/srg19CG0cKMuI",
+      "title": "Applause and clapping at the Oscars gif"
+    }
   },
   {
     "question": "What’s the fictional brand of cigarettes in Quentin Tarantino’s movies?",
@@ -195,7 +227,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "https://gph.is/12uUB8L"
+    "gif": {
+      "gifLink": "https://gph.is/12uUB8L",
+      "gifLinkEmbedded": "https://giphy.com/embed/2JBiHzC2PWL0A",
+      "title": "Uma Thurman holding a cigarette in Pulp Fiction gif"
+    }
   },
   {
     "question": "How many Oscars has Meryl Streep won?",
@@ -217,7 +253,11 @@
         "isCorrect": true
       }
     ],
-    "gifLink": "http://gph.is/2oOTwGP"
+    "gif": {
+      "gifLink": "http://gph.is/2oOTwGP",
+      "gifLinkEmbedded": "https://giphy.com/embed/4QEQMpEgzu65aZ4SiH",
+      "title": "Meryl Streep with happy tears at the Oscars gif"
+    }
   },
   {
     "question": "Who directed Titanic, Avatar and The Terminator?",
@@ -239,7 +279,11 @@
         "isCorrect": true
       }
     ],
-    "gifLink": "https://gph.is/1epGdp4"
+    "gif": {
+      "gifLink": "https://gph.is/1epGdp4",
+      "gifLinkEmbedded": "https://giphy.com/embed/AxhxIcTMEMqR2",
+      "title": "Sceene from Avatar gif"
+    }
   },
   {
     "question": "How many films have Kate Winslet and Leonardo DiCaprio starred in together?",
@@ -261,7 +305,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "http://gph.is/2c00n8u"
+    "gif": {
+      "gifLink": "http://gph.is/2c00n8u",
+      "gifLinkEmbedded": "https://giphy.com/embed/XOY5y7YXjTD7q",
+      "title": "Leonardo DiCaprio and Kate Winslet in Titanic gif"
+    }
   },
   {
     "question": "What is the first word spoken in Star Wars: The Empire Strikes Back?",
@@ -283,7 +331,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "http://gph.is/1QLlkGE"
+    "gif": {
+      "gifLink": "http://gph.is/1QLlkGE",
+      "gifLinkEmbedded": "https://giphy.com/embed/xT9DPpf0zTqRASyzTi",
+      "title": "Darth Vader telling Luke he is his father gif"
+    }
   },  
   {
     "question": "What is the name of the spell used by Ron and Hermoine in Harry Potter and the Philosopher’s Stone to make their feathers fly?",
@@ -305,7 +357,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "http://gph.is/1Dncfft"
+    "gif": {
+      "gifLink": "http://gph.is/1Dncfft",
+      "gifLinkEmbedded": "https://giphy.com/embed/RyLtUMBdogHvO",
+      "title": "Ron and Hermione making feathers fly gif"
+    }
   },
   {
     "question": "What happens to Chihiro’s parents in the 2001 Japanese film Spirited Away?",
@@ -327,7 +383,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "http://gph.is/Z0ce8Q"
+    "gif": {
+      "gifLink": "http://gph.is/Z0ce8Q",
+      "gifLinkEmbedded": "https://giphy.com/embed/F99PZtJC8Hxm0",
+      "title": "Chihiro in Spirited Away gif"
+    }
   },
   {
     "question": "How many Academy Awards has Leonardo DiCaprio won?",
@@ -349,7 +409,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "http://gph.is/2m65e0I"
+    "gif": {
+      "gifLink": "http://gph.is/2m65e0I",
+      "gifLinkEmbedded": "https://giphy.com/embed/g9582DNuQppxC",
+      "title": "Leonardo DiCaprio in The Great Gatsby gif"
+    }
   },
   {
     "question": "‘Frankly my dear, I don’t give a damn’ is an iconic line from which classic film?",
@@ -371,7 +435,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "https://gph.is/XKPQV2"
+    "gif": {
+      "gifLink": "https://gph.is/XKPQV2",
+      "gifLinkEmbedded": "https://giphy.com/embed/oWLRLUpyNaGU8",
+      "title": "Frankly my dear, I don't give a damn - scene gif"
+    }
   },
   {
     "question": "Who replaced Richard Harris as Dumbledore in the Harry Potter films?",
@@ -393,7 +461,11 @@
         "isCorrect": true
       }
     ],
-    "gifLink": "https://gph.is/g/Z8j8d2n"
+    "gif": {
+      "gifLink": "https://gph.is/g/Z8j8d2n",
+      "gifLinkEmbedded": "https://giphy.com/embed/Swx36wwSsU49HAnIhC",
+      "title": "Dumbledore clapping hands in Harry Potter and the Philosopher's Stone gif"
+    }
   },
   {
     "question": "What does Tom Hanks compare life to in Forest Gump?",
@@ -415,7 +487,11 @@
         "isCorrect": true
       }
     ],
-    "gifLink": "https://gph.is/g/E1mRMrR"
+    "gif": {
+      "gifLink": "https://gph.is/g/E1mRMrR",
+      "gifLinkEmbedded": "https://giphy.com/embed/l3xivF6cBEOQatmTQ1",
+      "title": "Forest Gump running gif"
+    }
   },
   {
     "question": "Which movie features an iconic dance scene between Uma Thurman and John Travolta?",
@@ -437,7 +513,11 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "https://gph.is/154MYSg"
+    "gif": {
+      "gifLink": "https://gph.is/154MYSg",
+      "gifLinkEmbedded": "https://giphy.com/embed/8ytDUrlW9JbG0",
+      "title": "Uma Thurman and John Travolta dancing gif"
+    }
   },
   {
     "question": "In the Coen Brothers film The Big Lebowski – what cocktail is the favourite of The Dude?",
@@ -459,6 +539,10 @@
         "isCorrect": false
       }
     ],
-    "gifLink": "https://gph.is/g/ZyPDL6O"
+    "gif": {
+      "gifLink": "https://gph.is/2MOdwV3",
+      "gifLinkEmbedded": "https://giphy.com/embed/BZl097s905ay7sJAL4",
+      "title": "Uma Thurman and John Travolta dancing gif"
+    }
   }
 ]

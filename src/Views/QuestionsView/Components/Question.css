@@ -1,0 +1,26 @@
+.Question {
+  width: 60vw;
+  height: 80vh;
+}
+
+.question__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question__gif-container {
+  width: 50vw;
+  height: 40vh;
+}
+
+.question__giphy-embed {
+  pointer-events: none;
+  width: 31rem;
+  height: 18rem
+}
+
+.question__alternative-container {
+  position: absolute;
+  bottom: 30vh;
+}
