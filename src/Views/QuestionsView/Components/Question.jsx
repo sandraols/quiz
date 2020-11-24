@@ -1,33 +1,19 @@
-import { React, useState } from 'react';
-import questions from '../../../questions.json';
+import { React } from 'react';
 import './Question.css';
 
-export const Question = () => {
+export const Question = ({question, index, nextQuestion}) => {
 
-  const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-  const question = questions[currentQuestionIndex];
-  const currentQuestion = question.question;
   const questionAlternatives = question.alternatives;
-
-  //gif
   const gifLink = question.gif.gifLink;
   const gifLinkEmbedded = question.gif.gifLinkEmbedded;
   const gifTitle = question.gif.title;
-  
-  const nextQuestion = () => {
-    setCurrentQuestionIndex(currentQuestionIndex + 1)
-  }
-  console.log(question);
-  console.log(currentQuestion);
-  console.log(currentQuestionIndex);
-  console.log(questionAlternatives);
 
   return(
     <section className="Question">
       <div className="question__container">
-        <h1 className="question__title">Question {currentQuestionIndex +1}</h1>
+      <h1 className="question__title">Question {index}</h1>
         <p className="question__question">
-          {currentQuestion}
+          {question.question}
         </p>
         <div className="question__gif-container">
           <iframe 
