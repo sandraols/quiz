@@ -3,11 +3,37 @@ import { React, useState } from 'react';
 import { IntroView } from './Views/IntroView/IntroView';
 import { QuestionsView } from './Views/QuestionsView/QuestionsView';
 import { ResultView } from './Views/ResultView/ResultView';
+import questions from './questions.json';
 
 
 function App() {
+
+  const askedQuestions = [];
+
+  const getRandomQuestion = () => {
+    const randomQuestionIndex = Math.floor(Math.random() * questions.length);
+    const randomQuestion = questions[randomQuestionIndex];
+    if (askedQuestions.includes(randomQuestion)) {
+      if (askedQuestions.length === questions.length) {
+        console.log('No more questions left!');
+        return;
+      }
+      return getRandomQuestion();
+    }
+    askedQuestions.push(randomQuestion);
+    return randomQuestion;
+  }
+
+  const getTenRandomQuestions = () => {
+    const tenRandomQuestions = [];
+    for (let i = 0; i < 10; i++) {
+      tenRandomQuestions.push(getRandomQuestion());
+    }
+    return tenRandomQuestions;
+  }
+  const tenRandomQuestions = getTenRandomQuestions();
+
   const [currentViewIndex, setCurrentViewIndex] = useState(0);
-  
   const nextView = () => {
     if (currentViewIndex === views.length - 1) {
       setCurrentViewIndex(0);
@@ -18,12 +44,9 @@ function App() {
   
   const views = [
     <IntroView nextView={nextView}/>,
-    <QuestionsView nextView={nextView}/>,
+    <QuestionsView nextView={nextView} tenRandomQuestions={tenRandomQuestions}/>,
     <ResultView nextView={nextView}/>
   ];
-
-  console.log(views.length);
-  console.log(currentViewIndex);
 
 return (
     <div className="App">
