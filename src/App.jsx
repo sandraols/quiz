@@ -7,6 +7,16 @@ import questions from './questions.json';
 
 
 function App() {
+  const [currentViewIndex, setCurrentViewIndex] = useState(0);
+  const [numOfCorrectAnswers, setNumOfCorrectAnswers] = useState(0);
+
+  const nextView = () => {
+    if (currentViewIndex === views.length - 1) {
+      setCurrentViewIndex(0);
+      return
+    }
+    setCurrentViewIndex(currentViewIndex + 1);
+  }
 
   const askedQuestions = [];
 
@@ -31,21 +41,20 @@ function App() {
     }
     return tenRandomQuestions;
   }
-  const tenRandomQuestions = getTenRandomQuestions();
 
-  const [currentViewIndex, setCurrentViewIndex] = useState(0);
-  const nextView = () => {
-    if (currentViewIndex === views.length - 1) {
-      setCurrentViewIndex(0);
-      return
+  const [tenRandomQuestions] = useState(getTenRandomQuestions()); 
+  
+
+  const increaseScore = (isCorrect) => {
+    if (isCorrect) {
+      setNumOfCorrectAnswers(numOfCorrectAnswers + 1);
     }
-    setCurrentViewIndex(currentViewIndex + 1);
   }
   
   const views = [
     <IntroView nextView={nextView}/>,
-    <QuestionsView nextView={nextView} tenRandomQuestions={tenRandomQuestions}/>,
-    <ResultView nextView={nextView}/>
+    <QuestionsView nextView={nextView} tenRandomQuestions={tenRandomQuestions} increaseScore={increaseScore}/>,
+    <ResultView nextView={nextView} numOfCorrectAnswers={numOfCorrectAnswers} />
   ];
 
 return (

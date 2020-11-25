@@ -1,12 +1,16 @@
 import { React } from 'react';
 import './Question.css';
 
-export const Question = ({question, index, nextQuestion}) => {
+export const Question = ({question, index, nextQuestion, increaseScore}) => {
 
   const questionAlternatives = question.alternatives;
   const gifLink = question.gif.gifLink;
   const gifLinkEmbedded = question.gif.gifLinkEmbedded;
   const gifTitle = question.gif.title;
+
+  const checkIfCorrect = (index) => {
+    increaseScore(questionAlternatives[index].isCorrect);
+  }
 
   return(
     <section className="Question">
@@ -27,10 +31,30 @@ export const Question = ({question, index, nextQuestion}) => {
           </p>
         </div>
         <div className="question__alternative-container">
-          <button className="question__alternative">{questionAlternatives[0].alternative}</button>
-          <button className="question__alternative">{questionAlternatives[1].alternative}</button>
-          <button className="question__alternative">{questionAlternatives[2].alternative}</button>
-          <button className="question__alternative">{questionAlternatives[3].alternative}</button>
+          <button
+            onClick={() => {checkIfCorrect(0)}}
+            className="question__alternative"
+          >
+              {questionAlternatives[0].alternative}
+          </button>
+          <button 
+            onClick={() => {checkIfCorrect(1)}} 
+            className="question__alternative"
+          >
+            {questionAlternatives[1].alternative}
+          </button>
+          <button 
+            onClick={() => {checkIfCorrect(2)}} 
+            className="question__alternative"
+          >
+            {questionAlternatives[2].alternative}
+          </button>
+          <button 
+            onClick={() => {checkIfCorrect(3)}} 
+            className="question__alternative"
+          >
+            {questionAlternatives[3].alternative}
+          </button>
         </div>
         <button className="question__next" onClick={nextQuestion}>Next question</button>
       </div>
