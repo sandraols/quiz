@@ -4,10 +4,15 @@ import './QuestionsView.css';
 
 export const QuestionsView = ({nextView, tenRandomQuestions, increaseScore}) => {
   const [questionNum, setQuestionNum] = useState(0);
+  console.log(questionNum);
 
   const nextQuestion = () => {
     setQuestionNum(questionNum + 1)
+    if (questionNum === 9) {
+      nextView();
+    }
   }
+
   return(
     <main className="Questions-view">
       <Question 

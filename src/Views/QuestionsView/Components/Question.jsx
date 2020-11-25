@@ -12,6 +12,11 @@ export const Question = ({question, index, nextQuestion, increaseScore}) => {
     increaseScore(questionAlternatives[index].isCorrect);
   }
 
+  const handleClick = (index) => {
+    checkIfCorrect(index);
+    nextQuestion();
+  }
+
   return(
     <section className="Question">
       <div className="question__container">
@@ -32,31 +37,31 @@ export const Question = ({question, index, nextQuestion, increaseScore}) => {
         </div>
         <div className="question__alternative-container">
           <button
-            onClick={() => {checkIfCorrect(0)}}
+            onClick={() => {handleClick(0)}}
             className="question__alternative"
           >
               {questionAlternatives[0].alternative}
           </button>
           <button 
-            onClick={() => {checkIfCorrect(1)}} 
+            onClick={() => {handleClick(1)}} 
             className="question__alternative"
           >
             {questionAlternatives[1].alternative}
           </button>
           <button 
-            onClick={() => {checkIfCorrect(2)}} 
+            onClick={() => {handleClick(2)}} 
             className="question__alternative"
           >
             {questionAlternatives[2].alternative}
           </button>
           <button 
-            onClick={() => {checkIfCorrect(3)}} 
+            onClick={() => {handleClick(3)}} 
             className="question__alternative"
           >
             {questionAlternatives[3].alternative}
           </button>
         </div>
-        <button className="question__next" onClick={nextQuestion}>Next question</button>
+        {/* <button className="question__next" onClick={nextQuestion}>Next question</button> */}
       </div>
     </section>
   )
