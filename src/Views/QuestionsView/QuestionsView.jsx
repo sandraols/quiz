@@ -1,5 +1,6 @@
 import { React, useState } from 'react';
 import { Question } from './Components/Question';
+import { Timer } from './Components/Timer';
 import './QuestionsView.css';
 
 export const QuestionsView = ({nextView, tenRandomQuestions, increaseScore}) => {
@@ -15,6 +16,7 @@ export const QuestionsView = ({nextView, tenRandomQuestions, increaseScore}) => 
 
   return(
     <main className="Questions-view">
+      <Timer nextQuestion={nextQuestion} />
       <Question 
         question={tenRandomQuestions[questionNum]} 
         index={questionNum + 1} 
