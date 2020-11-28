@@ -290,11 +290,11 @@
     "alternatives": [
       {
         "alternative": "Two",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "alternative": "One",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "alternative": "Four",
