@@ -1,7 +1,7 @@
 import { React } from 'react';
 import './Question.css';
 
-export const Question = ({question, index, nextQuestion, increaseScore}) => {
+export const Question = ({question, index, nextQuestion, increaseScore, twoFalseAlternatives}) => {
 
   const questionAlternatives = question.alternatives;
   const gifLink = question.gif.gifLink;
@@ -16,6 +16,8 @@ export const Question = ({question, index, nextQuestion, increaseScore}) => {
     checkIfCorrect(index);
     nextQuestion();
   }
+
+  console.log(twoFalseAlternatives);
 
   return(
     <section className="Question">
@@ -38,24 +40,28 @@ export const Question = ({question, index, nextQuestion, increaseScore}) => {
         <div className="question__alternative-container">
           <button
             onClick={() => {handleClick(0)}}
+            disabled={twoFalseAlternatives.includes(questionAlternatives[0])}
             className="question__alternative"
           >
               {questionAlternatives[0].alternative}
           </button>
           <button 
             onClick={() => {handleClick(1)}} 
+            disabled={twoFalseAlternatives.includes(questionAlternatives[1])}
             className="question__alternative"
           >
             {questionAlternatives[1].alternative}
           </button>
           <button 
-            onClick={() => {handleClick(2)}} 
+            onClick={() => {handleClick(2)}}
+            disabled={twoFalseAlternatives.includes(questionAlternatives[2])} 
             className="question__alternative"
           >
             {questionAlternatives[2].alternative}
           </button>
           <button 
-            onClick={() => {handleClick(3)}} 
+            onClick={() => {handleClick(3)}}
+            disabled={twoFalseAlternatives.includes(questionAlternatives[3])} 
             className="question__alternative"
           >
             {questionAlternatives[3].alternative}
