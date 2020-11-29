@@ -19,8 +19,8 @@
 
 .question__giphy-embed {
   pointer-events: none;
-  width: 31rem;
-  height: 18rem
+  width: 100%;
+  height: 30vh;
 }
 
 .question__alternatives-container {
