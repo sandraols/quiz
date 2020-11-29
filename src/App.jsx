@@ -5,7 +5,7 @@ import { QuestionsView } from './ViewComponents/QuestionsView/QuestionsView';
 import { ResultView } from './ViewComponents/ResultView/ResultView';
 import questions from './questions.json';
 
-//move this part to separate js file
+//move this part to separate js file with its own test file
 const askedQuestions = [];
 
 const getRandomQuestion = () => {
