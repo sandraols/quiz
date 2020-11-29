@@ -35,14 +35,19 @@ const tenRandomQuestionsInit = getTenRandomQuestions();
 function App() {
   const [currentViewIndex, setCurrentViewIndex] = useState(0);
   const [numOfCorrectAnswers, setNumOfCorrectAnswers] = useState(0);
+  const [numOfIncorrectAnswers, setNumOfIncorrectAnswers] = useState(0);
+  const [numOfUnansweredQuestions, setNumOfUnansweredQuestions] = useState(0);
   const [tenRandomQuestions, setTenRandomQuestions] = useState(tenRandomQuestionsInit); 
 
   const nextView = () => {
-    if (currentViewIndex === views.length - 1) {
+    if (currentViewIndex === 2) {
       setCurrentViewIndex(0);
       setTenRandomQuestions(getTenRandomQuestions());
       resetScore();
       return
+    }
+    if (currentViewIndex === 1) {
+      getNumOfUnansweredQuestions();
     }
     setCurrentViewIndex(currentViewIndex + 1);
   }
@@ -53,14 +58,38 @@ function App() {
     }
   }
 
+  const increaseNumOfIncorrectAnswers = (isCorrect) => {
+    if (!isCorrect) {
+      setNumOfIncorrectAnswers(numOfIncorrectAnswers + 1);
+    }
+  }
+
+  const getNumOfUnansweredQuestions = () => {
+    setNumOfUnansweredQuestions(9 - numOfCorrectAnswers - numOfIncorrectAnswers);
+  }
+
   const resetScore = () => {
     setNumOfCorrectAnswers(0);
+    setNumOfIncorrectAnswers(0);
+    setNumOfUnansweredQuestions(0);
   }
   
   const views = [
-    <IntroView nextView={nextView}/>,
-    <QuestionsView nextView={nextView} tenRandomQuestions={tenRandomQuestions} increaseScore={increaseScore}/>,
-    <ResultView nextView={nextView} numOfCorrectAnswers={numOfCorrectAnswers} />
+    <IntroView 
+      nextView={nextView}
+    />,
+    <QuestionsView 
+      nextView={nextView} 
+      tenRandomQuestions={tenRandomQuestions} 
+      increaseScore={increaseScore}
+      increaseNumOfIncorrectAnswers={increaseNumOfIncorrectAnswers}
+    />,
+    <ResultView 
+      nextView={nextView} 
+      numOfCorrectAnswers={numOfCorrectAnswers} 
+      numOfIncorrectAnswers={numOfIncorrectAnswers}
+      numOfUnansweredQuestions={numOfUnansweredQuestions} 
+    />
   ];
 
 return (

@@ -5,7 +5,7 @@ import { AddTenSeconds } from './Components/AddTenSeconds';
 import { FiftyFifty } from './Components/FiftyFifty';
 import './QuestionsView.css';
 
-export const QuestionsView = ({nextView, tenRandomQuestions, increaseScore}) => {
+export const QuestionsView = ({ nextView, tenRandomQuestions, increaseScore, increaseNumOfIncorrectAnswers }) => {
   const [questionNum, setQuestionNum] = useState(0);
   const [secondsLeft, setSecondsLeft] = useState(15);
   const [hasUsedAddTenSeconds, setHasUsedAddTenSeconds] = useState(false);
@@ -43,6 +43,7 @@ export const QuestionsView = ({nextView, tenRandomQuestions, increaseScore}) => 
     setSecondsLeft(15);
   }
 
+  // lifelines
   const addTenSeconds = () => {
     setSecondsLeft(secondsLeft + 10);
     setHasUsedAddTenSeconds(true);
@@ -63,7 +64,6 @@ export const QuestionsView = ({nextView, tenRandomQuestions, increaseScore}) => 
     setTwoFalseAlternatives(twoFalseAlternatives);
   }
 
-
   return(
     <main className="Questions-view">
       <div>
@@ -74,11 +74,11 @@ export const QuestionsView = ({nextView, tenRandomQuestions, increaseScore}) => 
       <Question 
         question={tenRandomQuestions[questionNum]} 
         index={questionNum + 1} 
-        nextQuestion={nextQuestion} 
         increaseScore={increaseScore}
+        increaseNumOfIncorrectAnswers={increaseNumOfIncorrectAnswers}
         twoFalseAlternatives={twoFalseAlternatives}
+        nextQuestion={nextQuestion} 
       />
-      <button onClick={nextView}>Go to results</button>
     </main>
   )
 }
