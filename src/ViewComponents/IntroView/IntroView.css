@@ -14,10 +14,6 @@
   align-items: center;
 }
 
-.intro-view__header {
-  margin-bottom: 1rem;
-}
-
 .intro-view__paragraph {
   width: 45vw;
 }

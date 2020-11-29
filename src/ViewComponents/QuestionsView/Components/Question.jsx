@@ -30,8 +30,8 @@ export const Question = (
   return(
     <section className="Question">
       <div className="question__container">
-      <h1 className="question__title">Question {index}</h1>
-        <p className="question__question">
+      <h1>Question {index}</h1>
+        <p className="question__paragraph">
           {question.question}
         </p>
         <div className="question__gif-container">
@@ -45,35 +45,35 @@ export const Question = (
             <a href={gifLink} rel="noreferrer" target="_blank">via GIPHY</a>
           </p>
         </div>
-        <div className="question__alternative-container">
-          <button
-            onClick={() => {handleClick(0)}}
-            disabled={twoFalseAlternatives.includes(questionAlternatives[0])}
-            className="question__alternative"
-          >
+        <div className="question__alternatives-container">
+          <div className="question__alternatives-top">
+            <button
+              onClick={() => {handleClick(0)}}
+              disabled={twoFalseAlternatives.includes(questionAlternatives[0])}
+            >
               {questionAlternatives[0].alternative}
-          </button>
-          <button 
-            onClick={() => {handleClick(1)}} 
-            disabled={twoFalseAlternatives.includes(questionAlternatives[1])}
-            className="question__alternative"
-          >
-            {questionAlternatives[1].alternative}
-          </button>
-          <button 
-            onClick={() => {handleClick(2)}}
-            disabled={twoFalseAlternatives.includes(questionAlternatives[2])} 
-            className="question__alternative"
-          >
-            {questionAlternatives[2].alternative}
-          </button>
-          <button 
-            onClick={() => {handleClick(3)}}
-            disabled={twoFalseAlternatives.includes(questionAlternatives[3])} 
-            className="question__alternative"
-          >
-            {questionAlternatives[3].alternative}
-          </button>
+            </button>
+            <button 
+              onClick={() => {handleClick(1)}} 
+              disabled={twoFalseAlternatives.includes(questionAlternatives[1])}
+            >
+              {questionAlternatives[1].alternative}
+            </button>
+          </div>
+          <div className="question__alternatives-bottom">
+            <button 
+              onClick={() => {handleClick(2)}}
+              disabled={twoFalseAlternatives.includes(questionAlternatives[2])} 
+            >
+              {questionAlternatives[2].alternative}
+            </button>
+            <button 
+              onClick={() => {handleClick(3)}}
+              disabled={twoFalseAlternatives.includes(questionAlternatives[3])} 
+            >
+              {questionAlternatives[3].alternative}
+            </button>
+          </div>
         </div>
       </div>
     </section>

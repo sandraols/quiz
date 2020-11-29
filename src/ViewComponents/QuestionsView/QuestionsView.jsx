@@ -66,19 +66,22 @@ export const QuestionsView = ({ nextView, tenRandomQuestions, increaseScore, inc
 
   return(
     <main className="Questions-view">
-      <div>
-        <AddTenSeconds hasUsedAddTenSeconds={hasUsedAddTenSeconds} addTenSeconds={addTenSeconds}/>
-        <FiftyFifty hasUsedFiftyFifty={hasUsedFiftyFifty} useFiftyFifty={useFiftyFifty} />
+      <div className="questions-view__container">
+        <Question 
+          question={tenRandomQuestions[questionNum]} 
+          index={questionNum + 1} 
+          increaseScore={increaseScore}
+          increaseNumOfIncorrectAnswers={increaseNumOfIncorrectAnswers}
+          twoFalseAlternatives={twoFalseAlternatives}
+          nextQuestion={nextQuestion} 
+        />
+        <div className="questions-view__time-lifelines">
+          <Timer secondsLeft={secondsLeft} />
+          <p className="questions-view__lifelines-paragraph">Lifelines:</p>
+          <AddTenSeconds hasUsedAddTenSeconds={hasUsedAddTenSeconds} addTenSeconds={addTenSeconds}/>
+          <FiftyFifty hasUsedFiftyFifty={hasUsedFiftyFifty} useFiftyFifty={useFiftyFifty} />
+        </div>
       </div>
-      <Timer secondsLeft={secondsLeft} />
-      <Question 
-        question={tenRandomQuestions[questionNum]} 
-        index={questionNum + 1} 
-        increaseScore={increaseScore}
-        increaseNumOfIncorrectAnswers={increaseNumOfIncorrectAnswers}
-        twoFalseAlternatives={twoFalseAlternatives}
-        nextQuestion={nextQuestion} 
-      />
     </main>
   )
 }

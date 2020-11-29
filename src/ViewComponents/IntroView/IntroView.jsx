@@ -5,9 +5,9 @@ export const IntroView = ({nextView}) => {
   return(
     <main className="Intro-view">
       <div className="intro-view__container">
-        <h1 className="intro-view__header">What's your movie skills?</h1>
+        <h1>What's your movie skills?</h1>
         <p className="intro-view__paragraph">Welcome to this quiz, where your 
-           knowledge about movies, actresses and actors will be put to the test.
+           knowledge about movies, actresses and actors will be put to the test!
            <br/><br/>
            You will be presented with ten movie related questions, each with 
            four alternative answers. Press on the alternative you think is correct,

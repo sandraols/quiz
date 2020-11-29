@@ -1,10 +1,9 @@
 import { React } from 'react';
+import './AddTenSeconds.css';
 
 export const AddTenSeconds = ({ addTenSeconds, hasUsedAddTenSeconds }) => {
   
   return(
-    <div className="Add-ten-seconds">
-      <button disabled={hasUsedAddTenSeconds} onClick={addTenSeconds}>Add ten seconds</button>
-    </div>
+    <button className="add-ten-seconds__button" disabled={hasUsedAddTenSeconds} onClick={addTenSeconds}>+10s</button>
   )
 };

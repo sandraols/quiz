@@ -1,0 +1,15 @@
+.fifty-fifty__button {
+  min-width: 8rem;
+  padding: .6rem;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+.fifty-fifty__button:hover {
+  background: #f964f1;
+  color: #000;
+}
+
+.fifty-fifty__button:disabled {
+  pointer-events: none;
+}

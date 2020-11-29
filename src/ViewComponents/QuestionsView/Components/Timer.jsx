@@ -4,8 +4,6 @@ import './Timer.css';
 export const Timer = ({ secondsLeft }) => {
 
   return(
-    <div className="Timer">
-      <p>Seconds left: {secondsLeft}</p>
-    </div>
+    <p className="timer__paragraph">Seconds left: {secondsLeft}</p>
   )
 };

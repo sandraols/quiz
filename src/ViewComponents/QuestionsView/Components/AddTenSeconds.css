@@ -1,0 +1,15 @@
+.add-ten-seconds__button {
+  min-width: 8rem;
+  padding: .6rem;
+  font-family: 'Roboto', sans-serif;
+  background: #fff;
+}
+
+.add-ten-seconds__button:hover {
+  background: #f964f1;
+  color: #000;
+}
+
+.add-ten-seconds__button:disabled {
+  pointer-events: none;
+}

@@ -1,10 +1,9 @@
 import { React } from 'react';
+import './FiftyFifty.css';
 
 export const FiftyFifty = ({ hasUsedFiftyFifty, useFiftyFifty }) => {
   
   return(
-    <div className="Fifty-fifty">
-      <button disabled={hasUsedFiftyFifty} onClick={useFiftyFifty}>Remove two alternatives</button>
-    </div>
+    <button className="fifty-fifty__button" disabled={hasUsedFiftyFifty} onClick={useFiftyFifty}>50/50</button>
   )
 };

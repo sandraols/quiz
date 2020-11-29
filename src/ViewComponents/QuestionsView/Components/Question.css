@@ -1,12 +1,15 @@
 .Question {
-  width: 60vw;
-  height: 80vh;
+  width: 40vw;
 }
 
 .question__container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.question__paragraph {
+  margin-bottom: 2rem;
 }
 
 .question__gif-container {
@@ -20,7 +23,17 @@
   height: 18rem
 }
 
-.question__alternative-container {
+.question__alternatives-container {
   position: absolute;
-  bottom: 30vh;
+  bottom: 10vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question__alternatives-top,
+.question__alternatives-bottom {
+  display: flex;
+  justify-content: center;
 }
