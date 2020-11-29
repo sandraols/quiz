@@ -1,10 +1,11 @@
 import './App.css';
 import { React, useState } from 'react';
-import { IntroView } from './Views/IntroView/IntroView';
-import { QuestionsView } from './Views/QuestionsView/QuestionsView';
-import { ResultView } from './Views/ResultView/ResultView';
+import { IntroView } from './ViewComponents/IntroView/IntroView';
+import { QuestionsView } from './ViewComponents/QuestionsView/QuestionsView';
+import { ResultView } from './ViewComponents/ResultView/ResultView';
 import questions from './questions.json';
 
+//move this part to separate js file
 const askedQuestions = [];
 
 const getRandomQuestion = () => {
@@ -40,6 +41,7 @@ function App() {
     if (currentViewIndex === views.length - 1) {
       setCurrentViewIndex(0);
       setTenRandomQuestions(getTenRandomQuestions());
+      resetScore();
       return
     }
     setCurrentViewIndex(currentViewIndex + 1);
@@ -49,6 +51,10 @@ function App() {
     if (isCorrect) {
       setNumOfCorrectAnswers(numOfCorrectAnswers + 1);
     }
+  }
+
+  const resetScore = () => {
+    setNumOfCorrectAnswers(0);
   }
   
   const views = [
