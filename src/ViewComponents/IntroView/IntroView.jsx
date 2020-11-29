@@ -1,7 +1,7 @@
 import React from 'react';
 import './IntroView.css';
 
-export const IntroView = ({nextView}) => {
+export const IntroView = ({ nextView }) => {
   return(
     <main className="Intro-view">
       <div className="intro-view__container">
